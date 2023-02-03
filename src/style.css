@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+input{
+     padding-left: 8px;
+    height: 20px;
+    width: 75px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid rgb(202, 198, 198);
+    background-color: rgb(255, 255, 255);
+
+}
+
+label{
+    font: 1em sans-serif;
+    font-size: medium;
+    font-family: cursive;
+}
+
+input:focus{
+    border: 2px solid rgb(39, 121, 223);
+}
+
+h1{
+    margin: 5px 10px 20px 0px;
+    color: rgb(39, 39, 39);
+}
+
