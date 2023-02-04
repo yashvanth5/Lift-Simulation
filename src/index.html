@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,42 @@
     <title>Lift Simulation</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Life Simulation</h1>
- 
-    <div class="no-of-floor" >
-        <label for="floor-no">No of floors</label>
-        <input type="number" id="floor-no">
-      
+
+    <div class="first-page">
+        <h1>Lift Simulation</h1>
+
+        <div class="no-of-floor">
+            <label for="floor-no">No of floors</label>
+            <input type="number"  id="floor-no">
+
+        </div>
+
+        <div class="no-of-lift">
+            <label for="lift-no">No of lifts</label>
+            <input type="number" id="lift-no">
+        </div>
+
+        <button class="simulate-btn">Simulate</button>
+
+        <div class="social">
+            <a href="">linkedin</a>
+            <a href="">github</a>
+
+
+        </div>
+
+        <div class="second-page">
+            <button class="goToFirstPage">Back</button>
+        </div>
+
+
     </div>
 
-    <div class="no-of-lift">
-        <label for="lift-no">No of lifts</label>
-        <input type="number" id="lift-no">  
-    </div>
-   
-    <button>Simulate</button>
-
-    <div>
-        <a href="">linkedin</a>
-        <a href="">github</a>
-        
-
-    </div>
 
 
-    
     <script src="main.js"></script>
 </body>
+
 </html>
