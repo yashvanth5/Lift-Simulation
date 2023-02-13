@@ -1,4 +1,4 @@
-var simulate = document.querySelector(".simulate-btn");
+let simulate = document.querySelector(".simulate-btn");
 simulate.addEventListener ('click' , hideFIrstPage);
 
 function hideFIrstPage(){
@@ -6,8 +6,7 @@ function hideFIrstPage(){
     document.querySelector('.second-Page').style.display = 'block';
   makingFloors();
 }
-
-var comeBack = document.querySelector('.goToFirstPage');
+let comeBack = document.querySelector('.goToFirstPage');
 comeBack.addEventListener('click' , hideSecondPage);
 
 function hideSecondPage(){
@@ -16,5 +15,18 @@ function hideSecondPage(){
     deletingFloors();
 }
 
+
+function makingFloors (){
+
+  let floorInput = document.querySelector("#floor-no").value ;
+  let liftInput = document.querySelector('#lift-no').value ;
+
+  for (let i = floorInput; i > 0 ; i--){
+
+    let floorDiv = document.createElement('div');
+    floorDiv.className = 'box';
+  }
+
+}
 
 
