@@ -25,6 +25,15 @@ function makingFloors (){
 
     let floorDiv = document.createElement('div');
     floorDiv.className = 'box';
+
+   let buttonLift = document.createElement('div');
+   buttonLift.className = 'buttonLift' ;
+
+   let buttondiv1 = document.createElement('div');
+   buttondiv1.className = 'button' ;
+
+   let button1 
+
   }
 
 }
