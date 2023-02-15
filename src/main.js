@@ -32,7 +32,10 @@ function makingFloors (){
    let buttondiv1 = document.createElement('div');
    buttondiv1.className = 'button' ;
 
-   let button1 
+   let button1 = document.createElement("button");
+   let text1 = document.createTextNode("up");
+   button1.className = "up"
+   
 
   }
 
